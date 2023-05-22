@@ -96,7 +96,7 @@
             </div>
         </div>
         <div class="logo">
-            <img src="./img/dc-logo-bg.png" alt="">
+            <img src="/img/dc-logo-bg.png" alt="">
         </div>
     </div>
 </section>

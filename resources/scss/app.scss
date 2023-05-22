@@ -9,7 +9,9 @@ $fa-font-path: "../fonts/webfonts" !default;
 @import "~@fortawesome/fontawesome-free/scss/brands";
 
 @import '~bootstrap/scss/bootstrap';
-
+a{
+    text-decoration: none;
+}
 header {
     .logo{
         width: 5rem;
@@ -179,6 +181,21 @@ footer{
 .comicInfo{
     .priceInfo{
         background-color: #55BA59;
-        color: #90DB93;
+        color: #b0e9b2;
+        .col-8{
+            border-right: 1px solid #00000070;
+        }
     }
+}
+.comicDetails{
+    background-color: #F6F6F6;
+    border-top: 1px solid rgb(223, 223, 223);
+    .artist{
+    border-top: 1px solid rgb(223, 223, 223);
+    border-bottom: 1px solid rgb(223, 223, 223);
+    }
+    .writers{
+    border-bottom: 1px solid rgb(223, 223, 223);
+    }
+
 }
