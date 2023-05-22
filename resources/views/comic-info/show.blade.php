@@ -6,7 +6,7 @@
         <img src="{{$comic['thumb']}}" alt="">
     </div>
 </div>
-<div class="comicInfo container my-3 mt-5 text-primary">
+<div class="comicInfo container my-5 text-primary">
     <h2>{{$comic['title']}}</h2>
     <div class="row priceInfo border-2 border">
         <div class="col-8 py-3 ps-4">
