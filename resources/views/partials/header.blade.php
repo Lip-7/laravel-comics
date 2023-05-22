@@ -1,7 +1,7 @@
 <header class="bg-white">
     <div class="container d-flex justify-content-between">
         <div class="logo d-flex align-items-center">
-            <a href="#"><img src="/img/dc-logo.png" alt=""></a>
+            <a href="{{route('home')}}"><img src="/img/dc-logo.png" alt=""></a>
         </div>
         <ul class="d-flex justify-content-between gap-2">
             <li class="text-uppercase"><a href="#">Characters</a></li>

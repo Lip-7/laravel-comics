@@ -24,7 +24,7 @@
             <div class="col-12 col-lg-6">
                 <h3 class="text-primary mb-4">Talent</h3>
                 <div class="artist d-flex justify-content-between text-black w-100 gap-3 text-small pt-1">
-                    <h6>Art by:</h6>
+                    <h6 class="minw">Art by:</h6>
                     <p>
                         @foreach ($comic['artists'] as $artist)
                             <a href="#">{{$artist}}</a>
@@ -32,7 +32,7 @@
                     </p>
                 </div>
                 <div class="writers d-flex justify-content-between text-black w-100 gap-3 text-small pt-1">
-                    <h6>Written by:</h6>
+                    <h6 class="minw">Written by:</h6>
                     <p>
                         @foreach ($comic['writers'] as $writer)
                             <a href="#">{{$writer}}</a>
@@ -44,15 +44,15 @@
                 <h3 class="text-primary mb-4">Specs</h3>
                 <div class="artist series d-flex justify-content-between text-black w-100 text-small pt-1">
                     <h6 class=" d-inline">Series:</h6>
-                    <p class=" d-inline-block  text-uppercase text-primary text-center flex-grow-1">{{$comic['series']}}</p>
+                    <p class=" d-inline-block  text-uppercase text-primary text-center w-75 pe-7">{{$comic['series']}}</p>
                 </div>
                 <div class="artist series d-flex justify-content-between text-black w-100 text-small pt-1">
                     <h6 class=" d-inline">U.S. Price:</h6>
-                    <p class=" d-inline-block  text-uppercase text-primary text-center flex-grow-1">{{$comic['price']}}</p>
+                    <p class=" d-inline-block  text-uppercase text-primary text-center w-75 pe-7">{{$comic['price']}}</p>
                 </div>
                 <div class="artist series d-flex justify-content-between text-black w-100 text-small pt-1">
                     <h6 class=" d-inline">On sale date:</h6>
-                    <p class=" d-inline-block  text-uppercase text-primary text-center flex-grow-1">{{$comic["sale_date"]}}</p>
+                    <p class=" d-inline-block  text-uppercase text-primary text-center w-75 pe-7">{{$comic["sale_date"]}}</p>
                 </div>
 
             </div>
