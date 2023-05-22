@@ -88,7 +88,7 @@ main{
     }
 }
 .preFooter {
-    background-image: url('./img/footer-bg.jpg');
+    background-image: url('/img/footer-bg.jpg');
     height: 350px;
     overflow: hidden;
 
@@ -147,6 +147,10 @@ footer{
             width: 100%;
             height: 100%;
             overflow: hidden;
+            transition: all .5s;
+            &:hover{
+                scale: 1.2;
+            }
 
             img {
                 width: 100%;
@@ -162,5 +166,19 @@ footer{
             font-size: 1rem;
             margin-top: .5rem;
         }
+    }
+}
+.blueBanner{
+    height: 50px;
+    img{
+       width: 150px;
+       position: relative;
+       top: -195px;
+    }
+}
+.comicInfo{
+    .priceInfo{
+        background-color: #55BA59;
+        color: #90DB93;
     }
 }
