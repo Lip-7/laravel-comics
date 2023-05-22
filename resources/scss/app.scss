@@ -10,3 +10,37 @@ $fa-font-path: "../fonts/webfonts" !default;
 
 @import '~bootstrap/scss/bootstrap';
 
+header {
+    .logo{
+        width: 5rem;
+        img{
+            width: 100%;
+        }
+    }
+    ul {
+        margin-bottom: 0;
+        list-style: none;
+        li{
+            margin: 0 5px;
+            padding: 50px 0 47px 0;
+            font-weight: 600;
+            color: black;
+            border-bottom: 3px solid transparent;
+            cursor: pointer;
+            &.active{
+                border-bottom: 3px solid #0C7CEC;
+                color: #0C7CEC;
+            }
+            &.active a{
+                color: #0C7CEC;
+            }
+            &:hover a{
+                color: #0C7CEC;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
