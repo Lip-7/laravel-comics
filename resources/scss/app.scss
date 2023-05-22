@@ -138,3 +138,29 @@ footer{
         }
     }
 }
+.cardWrap{
+    .mycard {
+        width: 12rem;
+        height: 12rem;
+
+        .mycard-img {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-position: top;
+                object-fit: cover;
+            }
+        }
+    }
+    .title{
+        width: 12rem;
+        h5{
+            font-size: 1rem;
+            margin-top: .5rem;
+        }
+    }
+}
